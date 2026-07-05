@@ -1,16 +1,30 @@
-# React + Vite
+# SBI PersonaAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## AI Relationship Manager for Intelligent Customer Acquisition
 
-Currently, two official plugins are available:
+### Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+PersonaAI is an Agentic AI-powered Relationship Manager that transforms traditional banking onboarding into a personalized, intelligent, and conversational experience.
 
-## React Compiler
+Instead of lengthy forms, PersonaAI understands customer needs through adaptive conversations, builds a Financial Identity Profile, recommends the most suitable SBI products, and guides users through seamless digital onboarding.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Adaptive AI Conversations
+- Financial Identity Profile
+- Personalized Product Recommendations
+- Explainable AI
+- Guided Digital Onboarding
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- FastAPI (Planned)
+- Google Gemini API (Planned)
+- PostgreSQL (Planned)
+- GitHub
+
+
+## Status
+
+Prototype submitted for SBI Hackathon 2026.
