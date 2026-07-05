@@ -1,38 +1,43 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <div className="app">
 
-      <nav className="navbar">
-        <h2>🏦 PersonaAI</h2>
+      <header className="navbar">
+        <div className="logo">
+          🏦 <span>PersonaAI</span>
+        </div>
 
-        <div className="nav-links">
+        <nav>
           <a href="/">Home</a>
           <a href="/">Features</a>
+          <a href="/">Products</a>
           <a href="/">About</a>
-        </div>
-      </nav>
+        </nav>
+      </header>
 
       <section className="hero">
 
-        <div className="left">
+        <div className="hero-left">
 
-          <span className="badge">
+          <span className="tag">
             SBI Hackathon 2026
           </span>
 
           <h1>
             AI Relationship Manager
             <br />
-            for Intelligent Customer Acquisition
+            for Intelligent
+            <br />
+            Customer Acquisition
           </h1>
 
           <p>
-            Welcome to PersonaAI — an Agentic AI assistant that understands
-            customer needs, builds a Financial Identity Profile and recommends
-            the most suitable SBI banking products through personalized
-            conversations.
+            Personalized onboarding powered by Agentic AI.
+            Understand customer goals, build financial identity,
+            recommend the right SBI products and guide users
+            through a seamless banking journey.
           </p>
 
           <div className="buttons">
@@ -47,25 +52,27 @@ function App() {
 
         </div>
 
-        <div className="right">
+        <div className="hero-right">
 
-          <div className="phone">
+          <div className="dashboard">
 
-            <div className="chat">
+            <h3>👋 Welcome, Sreeja</h3>
 
-              <div className="bot">
-                👋 Hello! I'm PersonaAI.
-              </div>
+            <div className="card">
+              <h4>Financial Identity</h4>
+              <p>Student • Beginner Investor</p>
+            </div>
 
-              <div className="user">
-                I'm looking for a savings account.
-              </div>
+            <div className="card">
+              <h4>Recommended</h4>
+              <p>✔ SBI Savings Plus</p>
+              <p>✔ Education Loan</p>
+              <p>✔ SBI Life Insurance</p>
+            </div>
 
-              <div className="bot">
-                Based on your profile,
-                I recommend SBI Savings Plus Account.
-              </div>
-
+            <div className="card">
+              <h4>AI Status</h4>
+              <p>Conversation Complete ✅</p>
             </div>
 
           </div>
@@ -75,7 +82,7 @@ function App() {
       </section>
 
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
